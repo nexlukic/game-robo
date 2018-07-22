@@ -1,0 +1,1 @@
+<?phpinclude('../konekcija.php'); $id=$_GET['id']; $tip=$_REQUEST['tip']; $upit="DELETE FROM $tip WHERE id=$id"; $result=$kon->query($upit); header('Location:admin.php'); ?>

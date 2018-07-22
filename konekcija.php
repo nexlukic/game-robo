@@ -1,0 +1,1 @@
+<?php$conn = mysqli_connect('localhost', 'root', '','roughlyc_gamerobo');$kon=new PDO('mysql:host=localhost;dbname=roughlyc_gamerobo','root','');?>
